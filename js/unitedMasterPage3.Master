@@ -1,0 +1,361 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="unitedMasterPage3.master.cs" Inherits="WebApplication1.unitedMasterPage3" %>
+
+<asp:Content>
+    
+    <asp:ContentPlaceHolder ID="MasterPage" runat="server">
+    </asp:ContentPlaceHolder>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/elegant-font/html-css/style.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+
+        <title></title>
+
+
+
+</head>
+
+<body class="animsition">
+
+        <!-- Header -->
+        <div id="siteheader">
+            <header class="header1">
+                <!-- Header desktop -->
+                <div class="container-menu-header">
+                    <div class="topbar">
+                        <div class="topbar-social">
+                            <a href="#" class="topbar-social-item fa fa-facebook-square"></a>
+                            <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                            <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+                        </div>
+
+                        <span class="topbar-child1">Free mask when visiting our CarWash2U
+                        </span>
+
+                        <div class="topbar-child2">
+                            <span class="topbar-email">Hello  <asp:Label ID="nameLabel" runat="server"></asp:Label> !  
+                            </span>
+                            &nbsp&nbsp&nbsp
+                            <span class="topbar-email"><asp:Label ID="emailLabel" runat="server"></asp:Label> 
+                            </span>
+
+                            <div class="topbar-language rs1-select2">
+                                <select class="selection-2" name="time">
+                                    <option>MYR</option>
+                                  
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wrap_header">
+                        <!-- Logo -->
+                        <a href="homepage.aspx" class="logo">
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="images/CarWash2U%20logo.jpeg" alt="IMG-LOGO">
+                        </a>
+
+                        <!-- Menu -->
+                        <div class="wrap_menu">
+                            <nav class="menu">
+                                <ul class="main_menu">
+                                    <li>
+                                        <a href="homepage.aspx">HOME</a>                                    
+                                    </li>
+
+                                    <li class="sale-noti">
+                                        <a href="product.aspx">SERVICES</a>
+                                    </li>
+                                                                        
+                                     <li>
+                                        <a href="contactUs.aspx">CONTACT US</a>
+                                    </li>
+
+                                     <li>
+                                        <a href="aboutUs.aspx">ABOUT US</a>
+                                    </li>
+                                  
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <!-- Header Icon -->
+                        <div class="header-icons">
+                        <div class="wrap_menu">
+                            <nav class="menu">
+                                <ul class="main_menu">
+                                    <li>
+                                    
+                                        <a style="text-decoration:none" href="AdminProfile.aspx" class="header-wrapicon1 dis-block">
+                                        <img style="text-decoration:none" src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                                        </a>
+                                               <ul class="sub_menu" style="padding-left: 0px;">
+                                                    <li><a href="AddProduct1.aspx">Add New Service</a></li>
+
+                                                   <li><a href="myProduct.aspx">View My Product</a></li>
+									               <li><a href="AdminProfile.aspx">Manage Account</a></li>
+                                                   <li><a href="WalkInService.aspx">For Walk-in Services</a></li>
+                                                   <li><a href="filter.aspx">Report Module</a></li>
+                                                    <hr style="background-color:ghostwhite;margin-bottom:0px" />                                 
+							            		    <li><a href="LogOut.aspx">Log Out</a></li>
+								                </ul>
+                                         
+                                        </ul>
+                                        
+                                 
+                                      
+                            </nav>
+                            
+                   
+                       </div>
+
+                           
+
+                           
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                </div>
+
+
+            </header>
+        </div>
+
+
+        <!--BODY BODY BODY -->
+        <!--BODY BODY BODY -->
+        <!--BODY BODY BODY -->
+        <!--BODY BODY BODY -->
+        <div style="min-height: 400px">
+            <asp:ContentPlaceHolder ID="SiteBody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!--BODY BODY BODY -->
+        <!--BODY BODY BODY -->
+        <!--BODY BODY BODY -->
+        <!--BODY BODY BODY -->
+
+
+        <!-- Footer -->
+        <div id="sitefooter">
+            <footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
+                <div class="flex-w p-b-90">
+                    <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
+                        <h4 class="s-text12 p-b-30">GET IN TOUCH
+                        </h4>
+
+                        <div>
+                            <p class="s-text7 w-size27">
+                                Any problems?<br /> 
+                                Visit our store at Jalan USJ 2/2c, USJ 2, <br /> 47600 Subang Jaya, Selangor Malaysia or <br />call us on +603-8888-9999
+                            </p>    
+                            <br />
+
+                            <div>
+                            <h4 class="s-text12 p-b-10">Follow Us On Social Media !</h4>
+                            <div class="flex-m p-t-0">
+                                <a  class="fs-18 color1 p-r-20 "></a>
+                                <a  class="fs-18 color1 p-r-20 "></a>
+                                <a href="#" class="fs-18 color1 p-r-20 fa fa-facebook-square"></a>
+                                <a href="#" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
+                                <a href="#" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+                            </div>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+                        <h4 class="s-text12 p-b-30">Categories
+                        </h4>
+
+                       <ul>
+                            <li class="p-b-9">
+                                <a href="#" class="s-text7">Washing Services
+                                </a>
+                            </li>
+
+                            <li class="p-b-9">
+                                <a href="#" class="s-text7">Vacuuming Services
+                                </a>
+                            </li>
+
+                            <li class="p-b-9">
+                                <a href="#" class="s-text7">Cleaning Services
+                                </a>
+                            </li>                            
+                        </ul>
+                    </div>
+
+                    <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+                        <h4 class="s-text12 p-b-30">CarWash2U
+                        </h4>
+
+                        <ul>
+                            
+                                
+                            <li class="p-b-9">
+                                <a href="#" class="s-text7 p-l-38 ">Services
+                                </a>
+                            </li>
+
+                           
+                           
+                        </ul>
+                    </div>
+
+                    <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+                        <h4 class="s-text12 p-b-30">Help
+                        </h4>
+
+                        <ul>
+                            <li class="p-b-9">
+                                <a href="#" class="s-text7">Contact Us
+                                </a>
+                            </li>
+
+                            <li class="p-b-9">
+                                <a href="#" class="s-text7">About Us
+                                </a>
+                            </li>
+
+                            <li class="p-b-9">
+                                <a href="#" class="s-text7">FAQs
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w-size8 p-t-30 p-l-15 p-r-15 respon3">
+                        <h4 class="s-text12 p-b-30">Newsletter
+                        </h4>
+
+                        <form>
+                            <div class="effect1 w-size9">
+                                <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="example@gmail.com">
+                                <span class="effect1-line"></span>
+                            </div>
+
+                            <div class="w-size2 p-t-20">
+                                <!-- Button -->
+                                <button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
+                                    Subscribe
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="t-center p-l-15 p-r-15">
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/paypal.png" alt="IMG-PAYPAL">
+                    </a>
+
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/visa.png" alt="IMG-VISA">
+                    </a>
+
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/mastercard.png" alt="IMG-MASTERCARD">
+                    </a>
+
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/express.png" alt="IMG-EXPRESS">
+                    </a>
+
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/discover.png" alt="IMG-DISCOVER">
+                    </a>
+
+                    <div class="t-center s-text8 p-t-20">
+                        Copyright © 2021 All rights reserved. | CarWash2U
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+        <!-- Back to top -->
+        <div class="btn-back-to-top bg0-hov" id="myBtn">
+            <span class="symbol-btn-back-to-top">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+            </span>
+        </div>
+
+        <!-- Container Selection -->
+        <div id="dropDownSelect1"></div>
+        <div id="dropDownSelect2"></div>
+
+        </div>
+
+
+
+        <!--===============================================================================================-->
+        <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+        <script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+        <script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+        <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+        <script type="text/javascript">
+            $(".selection-1").select2({
+                minimumResultsForSearch: 20,
+                dropdownParent: $('#dropDownSelect1')
+            });
+
+            $(".selection-2").select2({
+                minimumResultsForSearch: 20,
+                dropdownParent: $('#dropDownSelect2')
+            });
+        </script>
+        <!--===============================================================================================-->
+        <script src="js/main.js"></script>
+
+
+
+    
+
+</body>
+</html>
+
+
+</asp:Content>
+
+
+
+
+
+
+
