@@ -59,7 +59,10 @@
                     </td>
                     <td>
                         IMAGE
-                    </td>                    
+                    </td>
+                    <td>
+                     DELETE
+                 </td>
                 </tr>
 
                 </HeaderTemplate>
@@ -90,7 +93,7 @@
                     <td>
                         <img src="<%#Eval("image") %>" alt="Spiderman" style="width:150px;height:150px;" />
                     </td>
-                      
+                     <td><a href="delete.aspx?id=<%#Eval("product_id") %>">Delete</a></td>  
                 </tr>
 
                 </ItemTemplate>
