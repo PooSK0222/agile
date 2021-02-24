@@ -64,7 +64,7 @@
                 </tr> 
                 <tr>
                     <td class="auto-style6">
-                        SERVICE CATEGORY
+                        SERVICES CATEGORY
                          </td>
                     <td>
                         <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-control">
