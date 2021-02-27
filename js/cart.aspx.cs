@@ -208,7 +208,7 @@ namespace js
 
                 //String total = j.ToString();
 
-                Response.Write("<script>alert('Date Confirmed')</script>");
+                Response.Write("<script>alert('Date Confirmed ')</script>");
             }
             catch (Exception ex)
             {
