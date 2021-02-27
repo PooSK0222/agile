@@ -93,7 +93,7 @@
                     <td>
                         <img src="<%#Eval("image") %>" alt="Spiderman" style="width:150px;height:150px;" />
                     </td>
-                     <td><a href="delete.aspx?id=<%#Eval("product_id") %>">Delete</a></td>  
+                     <td><a href="delete.aspx?id=<%#Eval("product_id") %>">DELETE</a></td>  
                 </tr>
 
                 </ItemTemplate>
