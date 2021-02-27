@@ -66,7 +66,7 @@
             
            
                 <div style="box-shadow: 0 4px 8px 0 rgb(255, 106, 0);padding:30px;margin-bottom:30px"> 
-                                <div><h3>Check the Date Schedule</h3><div style="padding-left: 600px;"> There are total <h3 style="color: black" id="item_in_cart" runat="server"></h3>in this date</div>
+                                <div><h3>Check the Date Schedule </h3><div style="padding-left: 600px;"> There are total <h3 style="color: black" id="item_in_cart" runat="server"></h3>in this date</div>
                                 Date <asp:Textbox type="date" CssClass="t" ID="cDate" runat="server"/><br /><br />
                 <asp:Button ID="btnCheck" runat="server" OnClick="btnCheck_ServerClick" CssClass="btnModify" Text="Check Date Schedule" />
 
