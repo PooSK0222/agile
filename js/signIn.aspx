@@ -20,7 +20,7 @@
         <div class="container"  >
             <div class="signup-content">
                 <form method="post" runat="server" class="signup-form" id="signInForm" autocomplete="off">
-                    <h2 style="color:ghostwhite; font-weight:bold; font-family:Arial"><span class="fa fa-sign-in"></span> Sign In  </h2>
+                    <h2 style="color:ghostwhite; font-weight:bold; font-family:Arial"><span class="fa fa-sign-in"></span> SIGN IN  </h2>
                     <h3 class="desc" style="font-weight:bold; color:aquamarine">Welcome to <span style="color:deepskyblue">CarWash2U</span></h3>
                     
                     <p><asp:Label style="color:#AD0000" id="errorMsg" Visible="false" runat="server"></asp:Label></p>
