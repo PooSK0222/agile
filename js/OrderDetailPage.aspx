@@ -13,7 +13,7 @@
     <style>
         .orderDetailContent {
             width: 1000px;
-            margin: 0 auto;
+            margin: 0 auto; 
         }
 
         .orderDetailPart {
@@ -75,7 +75,7 @@
                 <br />
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT p.name, od.order_qty, od.unit_price
 FROM order_detail od, product p
-WHERE p.product_id = od.product_id
+WHERE p.product_id = od.product_id 
 AND od.order_id = @order_id">
                     <SelectParameters>
                         <asp:SessionParameter Name="order_id" SessionField="sessOrderID" />
