@@ -35,7 +35,7 @@ namespace js
 
 
             SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
+            cmd.CommandType = CommandType.Text;            
             cmd.CommandText = "select * from product where seller_id = '" + seller_id  + "'";
             cmd.ExecuteNonQuery();
 
