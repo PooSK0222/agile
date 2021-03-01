@@ -204,7 +204,7 @@ namespace js
                 body += "<br /><br />Congratulation! Your CarWash2U account has been successfully created.";
                 body += "<br /><br />To complete the process, please click on the link to verify your email address.";
                 body += "<br /><a href = '" + Request.Url.AbsoluteUri.Replace("signUp.aspx", "accountValidation.aspx?ActivationCode=" + activationCode) + "'>Click here to activate your account.</a>";
-                body += "<br /><br />Thank You !";
+                body += "<br /><br />";
                 body += "<br /><br /><br /> CarWash2U ";
                 mm.Body = body;
                 mm.IsBodyHtml = true;
