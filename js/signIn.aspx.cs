@@ -195,7 +195,7 @@ namespace js
                     body += "<br /><br />Email Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: " + email;
                     body += "<br />Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : " + password;
                     body += "<br /><br />Please note that this action totally performed by our system and do not involve any participation of our personnel.";
-                    body += "<br /><br /><br />Thank You !";
+                    body += "<br /><br /><br />THANK YOU !";
                     body += "<br /><br /><br /> CarWash2U ";
                     mm.Body = body;
                     mm.IsBodyHtml = true;
@@ -218,7 +218,7 @@ namespace js
             else
             {
 
-                String access_denied = "ERROR !!!\\nEmail " + email + " not found !";
+                String access_denied = "Error !!!\\nEmail " + email + " not found !";
                 Response.Write("<script language='javascript'>window.alert('" + access_denied + "');window.location='signIn.aspx';</script>");
             }
 
