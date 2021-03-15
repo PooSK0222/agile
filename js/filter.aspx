@@ -122,7 +122,7 @@
                 </tr>
             </table>
             <br />
-            <center><asp:Button runat="server" CssClass="simpletransit" OnClick="Button1_Click" Text="Show Sales Data" /><br /><br />
+            <center><asp:Button runat="server" CssClass="simpletransit" OnClick="Button1_Click" Text="Display Monthly Sales " /><br /><br />
              
                 
 
